@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>To Do List</title>
+            <link rel="stylesheet" type="text/css" href="style.css" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta charset="UTF-8" />
+        </head>
+        <body>
+            <section class="container">
+                <div class="heading">
+                    <img class="heading_img" src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg">
+                    <h1 class="heading_title">To Do List</h1>
+                </div>
+                <form class="form">
+                    <div>
+                        <label class="form_label" for="todo">~ Today I need to ~</label>
+                        <input class="form_input" type="text" name="to-do" id="todo" size="30" placeholder="Add a new task" required>
+                        <button class="button"><span>Submit</span></button>
+                    </div>
+                </form>
+                <div>
+                    <ul class="toDoList">
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+            <script src="script.js"></script>
+        </body>
+    </html>
